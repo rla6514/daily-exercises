@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+@import "variables";
+@import "icons";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+
+  font-family: 'Oswald', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.sidebar {
+  position: fixed;
+  
+  width: 16rem;
+  height: 100vh;
+  padding: 1rem 2rem;
+
+  background-color: $color-bg-primary;  
+  
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  text-align: center;
+
+  &__logo {
+    background-image: url('/img/vibecast-logo.svg');
+    background-size: contain;
+    width: 12rem;
+    height: 12rem;
+  }
+
+  &__link{
+    display: flex;
+    flex-direction: column;
+  }
+
+    & a{
+    text-decoration: none;
+    color: rgb(245, 97, 11);
+  }
+
+  &__paragraph{
+    color: white;
+  }
+
+    & span{
+    color: rgb(245, 97, 11);
+  }
+
+  &__show{
+    color: rgb(245, 97, 11);
+  }
+
+  &__subscribe{
+    padding-top: 2rem;
+  }
+}
+
+.podcast {
+  margin-left: 16rem;
+}
+
+.podcast-heading {
+  display: flex;
+  align-items: center;
+  
+  height: 5rem;
+  padding: 1rem 2.5rem;
+  
+  background-color: $color-bg-secondary;
+
+  &__logo {
+    img {
+      width: 3rem;
+      height: 3rem;
+    }
+
+    margin-right: 1rem;
+  }
+
+  &__title {
+    padding-bottom: 0.5rem;
+    
+    font-size: 2rem;
+    line-height: 2rem;
+    text-transform: uppercase;
+  }
+}
+
+.podcast-nav{
+  display: flex;
+  align-items: center;
+  border-top: 2px solid grey;
+  margin-top: 2em;
+
+}
+
+.podcast-nav__img img{
+  width: 6em;
+  height: 6em;
+
+}
+
+.podcast-nav__number span{
+  font-size: 4em;
+  padding-right: 1em;
+}
+
+.podcast-nav__name h1{
+  font-size: 4em;
+}
+
+.podcast-nav__time{
+  align-self: flex-end;
+  
+}

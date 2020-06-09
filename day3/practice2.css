@@ -1,0 +1,65 @@
+html,body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+#main{
+    border: 4px solid sandybrown;
+    margin: 16px;
+}
+
+
+h1,h3{
+    text-align: center;
+}
+
+
+ul,dl{
+    max-width: 25%;
+    margin: 32px auto;
+}
+
+
+.title{
+    border-bottom: 2px dashed sandybrown;
+    padding-bottom: 20px;
+}
+
+
+.subtitle:nth-of-type(2){
+    color: blue;
+}
+
+
+ul li:first-child{
+    list-style: none;
+    margin-bottom: 16px;
+}
+
+
+ul li:nth-child(even){
+    color: green;
+}
+
+
+dl dt{
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+dl dd{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+
+dl dd:nth-child(6){
+    text-decoration: underline;
+}
+
+
+dl dd:last-child{
+    font-family: sans-serif;
+}

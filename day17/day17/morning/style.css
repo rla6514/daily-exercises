@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+   
+
+}
+
+.uni{
+    width: 200px;
+    height: 200px;
+    border-bottom: 10px solid black ;
+}
+
+.clever{
+    
+    width: 200px;
+    height: 200px;
+    border-bottom: 10px solid black ;
+}
+
+.conversation1{
+    display: flex;
+    margin-top: 100px;
+}
+
+
+.chat1{
+    margin-left: 100px;
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.conversation2{
+    display: flex;
+    margin-top: 100px;
+}
+
+.chat2{
+    margin-right: 100px;
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}

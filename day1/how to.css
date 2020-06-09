@@ -1,0 +1,41 @@
+body {
+
+    font-family: 'Lato',Helvetica,sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #444444;
+    padding: 54px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-left: 8px solid #2baadf;
+}
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    font-weight: 100;
+
+}
+h3{
+    color: #cccccc;
+}
+a{
+    margin-right: 10opx;
+    color: #2baadf;
+}
+article{
+    border-bottom: 1px solid #aaa;
+    margin: 54px 0;
+
+}
+img{
+    width: 600px;
+
+}
+.continue{
+    text-align: right;
+    font-size: 20px;
+    color: #2baadf;
+    font-weight: bold;
+}

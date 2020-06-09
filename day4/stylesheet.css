@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Medieval Victoriana No.1';
+    src: url('MedievalVictorianaNo1.eot');
+    src: url('MedievalVictorianaNo1.eot?#iefix') format('embedded-opentype'),
+        url('MedievalVictorianaNo1.woff2') format('woff2'),
+        url('MedievalVictorianaNo1.woff') format('woff'),
+        url('MedievalVictorianaNo1.ttf') format('truetype'),
+        url('MedievalVictorianaNo1.svg#MedievalVictorianaNo.1') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

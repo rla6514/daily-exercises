@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey page</title>
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body>
+    <h1>
+        Feedback Form
+    </h1>
+<main>
+
+    <form action="https://classes.codingbootcamp.cz/assets/classes/request-visualization/script.php" method="post">
+
+    <label>
+        NAME<br><input id="basic" name="full name" value=""><br>
+    </label>
+    
+    <label>
+        <br>EMAIL<br><input id="basic" name="email address" value=""><br>
+    </label>
+
+    <label>
+        <br>CHOOSE BATCH<br>
+        <select name="batch" id="basic">
+            <option value="winter" selected="selected">Winter 2020</option>
+            <option value="spring" selected="selected">Spring 2020</option>
+            <option value="autumn" selected="selected">Autumn 2020</option>
+        </select><br>
+    </label>
+
+    <label>
+        <br>DID YOU COMPLETE ALL THE EXERCISES FROM WEEK 1?<br>
+        <input type="hidden" name="complete" value="">
+        <input type="radio" name="complete" value="yes" checked>YES
+        <br><input type="radio" name="complete" value="no">NO
+    </label>
+
+    <label>
+        <br><br>CHOOSE YOUR FAVOURITE EXERCISES<br>
+        <input type="hidden" name="selector" value="no">
+        <input type="checkbox" name="selector" value="yes">CSS selectors<br>
+        <input type="checkbox" name="book" value="yes">Book page<br>
+        <input type="checkbox" name="belfast" value="yes">Belfast International Kindergarden<br>
+        <input type="checkbox" name="crownsnest" value="yes">Crownsnest Retreat<br>
+        <input type="checkbox" name="Google" value="yes">Google page<br>
+        <input type="checkbox" name="documentation" value="yes">Documentation page<br>
+        <input type="checkbox" name="portfolio" value="yes">Aneta Webbie Personal Portfolio<br>
+    </label>
+
+        <label>
+            <br>WRITE FEEDBACK<br>
+            <textarea name="feedback" cols="70" rows="10"></textarea>
+        </label>
+
+        <div>
+            <br><br><input id="submit" type="submit" value="SUBMIT">
+        </div>
+
+
+
+
+    </label>
+</main>
+</body>
+</html>

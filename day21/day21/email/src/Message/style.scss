@@ -1,0 +1,27 @@
+.message{
+    line-height: 150%;
+    margin-bottom: 1rem;
+
+    &__sender {
+        font-weight: bold;
+    }
+
+    &__subject {
+        color: #999;
+    }
+}
+
+.term{
+    line-height: 150%;
+    
+    &__name{
+        margin-bottom: 2rem;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    &__definition{
+        font-size: 1rem;
+    }
+}
+

@@ -1,0 +1,29 @@
+$primary_color: red;
+$primary_font: sans-serif;
+$page_width: 600px;
+
+html{
+    font-family: $primary_font
+}
+
+body{
+    background-color: grey;
+    color: $primary_color;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    color: $primary_color;
+}
+
+h2{
+    text-align: center;
+    color: $primary_color;
+}
+
+p{
+    border-bottom: 2px solid $primary_color;
+}
+
+@import 'footer.scss'

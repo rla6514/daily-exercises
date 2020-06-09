@@ -1,0 +1,87 @@
+html, body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.welcome{
+    display: flex;
+    width: 80%;
+    margin: 0 10%;
+}
+
+.home li{
+    box-sizing: border-box;
+    background-color: black;
+    width: 100px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    display: inline-flex;
+    align-items: center;
+    
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+ ul{
+     display: flex;
+     justify-content: flex-end;
+ }
+
+ .hi{
+     background-color: violet;
+    
+     background-size: cover;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     }
+
+.webbie{
+    margin-top: 50px;
+}     
+ .developer{
+     margin-top: 0;
+ }
+
+ .webbie span{
+     color: turquoise;
+     font-weight: bold;
+     text-decoration: underline;
+ }
+
+.hello{
+    margin: 25px;
+}
+
+.hello span{
+    font-weight: bold;
+}
+
+.character{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    color: white;
+    background-color: black;
+    justify-content: space-between;
+    padding: 5em 2em;
+    
+}
+
+.character .circle{
+    width: 5rem;
+    height: 5rem;
+    background-color: white;
+}
+
+.4cha{
+    
+}
+

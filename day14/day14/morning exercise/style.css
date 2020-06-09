@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+ 
+html, body {
+    margin: 0;
+    padding: 0;
+}
+ 
+.calculator {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+    background: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculation{
+    display: flex;
+    flex-direction: column;
+}
+
+#input{
+    height: 50px;
+    width: 300px;
+    text-align: center;
+}
+
+.result{
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    background-color: thistle;
+}
+
+#equal{
+    height: 50px;
+    width: 300px;
+    text-align: center;
+}

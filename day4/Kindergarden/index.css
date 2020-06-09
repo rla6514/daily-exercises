@@ -1,0 +1,128 @@
+html{
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 45%;  
+}
+
+body{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul li {
+    display: inline-flex;
+    font-size: 15px;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-top: 2rem;
+    padding-bottom: 1rem;  
+}
+
+li a{
+    text-decoration: none;
+}
+
+a{
+    color: #000000;
+}
+
+.BIK{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(banner.jpg);
+    color: #FFFFFF;
+    text-align: left;
+    padding-left: 10em;
+    font-weight: 900;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    
+    
+}
+
+
+.BIK span:nth-child(1){
+    color: #FFE964;
+}
+
+.BIK span:nth-child(2){
+    color: #FF523D;
+}
+
+.BIK span:nth-child(3){
+    color: #223C88;
+    text-decoration: underline;
+}
+
+.mission{
+    background-color: #FFE964;
+    padding: 5% 15%;
+}
+
+.mission h2{
+    position: relative;
+    left: 3.8em;
+}
+
+
+h2{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.aboutus{
+    text-align: left;
+    padding-left: 10em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.ourteam{
+    background-color: #FF523D;
+    padding: 2em 2em 2em 5em;
+}
+
+.ourteam h2{
+    color: white;
+    text-align: left;
+    
+}
+
+.team{
+    color: white;
+}
+
+.team img{
+    width: 5em;
+}
+
+h3{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 15px;
+}
+
+.contact{
+    background-color: #223C88;
+    text-align: left;
+    color: white;
+    padding-left: 8em;
+    padding-bottom: 3em;
+}
+
+h2{
+    padding-top: 2em;
+    padding-right: 8em;
+    padding-bottom: 1em;
+}
+
+.contact span{
+    font-weight: bold;
+}
+
+
+
+    

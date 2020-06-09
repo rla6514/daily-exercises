@@ -1,0 +1,28 @@
+body{
+    font-family:  'Bangers', cursive;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 10%;
+}
+
+h1{
+    font-size: 50px;
+}
+
+p{
+    font-size: 25px;
+}
+
+div{
+    font-size: 25px;
+}
+
+img{
+    border: 10px solid #a4a4a4;
+    border-radius: 50px;    
+}
+
+a:hover {
+    color: #1870C7;
+  }

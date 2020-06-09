@@ -1,0 +1,47 @@
+Table wines {
+  id "bigint unsigned" [pk, increment]
+  variety_id "bigint unsigned" [ref: > varieties.id]
+  winery_id "bigint unsigned" [ref: > wineries.id]
+  title varchar(127)
+  designation varchar(127)
+  price_per_bottle double(13,2)
+}
+
+Table varieties {
+  id "bigint unsigned" [pk, increment]
+  name varchar(127)
+}
+
+Table reviews {
+  id "bigint unsigned" [pk, increment]
+  wine_id "bigint unsigned" [ref: > wines.id]
+  taster_id "bigint unsigned" [ref: > tasters.id]
+  text text
+  rating int
+}
+
+Table tasters {
+  id "bigint unsigned" [pk, increment]
+  name varchar(127)
+  twitter varchar(127) [unique]
+}
+
+Table wineries {
+  id "bigint unsigned" [pk, increment]
+  province_id "bigint unsigned" [ref: > provinces.id]
+  region varchar(127)
+  region_2 varchar(127)
+  name varchar(127)
+}
+
+Table countries {
+  id "bigint unsigned" [pk, increment]
+  name varchar(127)
+}
+
+Table provinces {
+  id "bigint unsigned" [pk, increment]
+  country_id "bigint unsigned" [ref: > countries.id]
+  name varchar(127)
+}
+

@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    background-color: black;
+    background-size: cover;
+    display: block;
+}
+
+body{
+    display: flex;
+    margin: 10em 15em;
+    background: url(https://classes.codingbootcamp.cz/assets/classes/676/coffee-photo.jpg);
+    justify-content: flex-end;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba($color: #c57b19, $alpha: 0.2);
+    color: white;
+    max-width: 400px;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center; 
+    padding: 0 5em; 
+    padding-bottom: 5em;  
+}
+
+h1{
+    font-size: 3em;
+    margin-bottom: -5em;
+}
+
+p{
+    font-size: 1em;
+    margin: -10em 0;
+    line-height: 1.6;
+    
+}
+
+main #button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15em;
+    height: 5em;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 10em;
+
+    
+}
+
+

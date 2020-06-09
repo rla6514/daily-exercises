@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #001555;
+    background-size: cover;
+  }
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-bottom: 5em;
+}
+
+h1{
+    color: white;
+}
+
+main{
+    background-color: #8a93ad;
+    padding: 2em;
+}
+
+#basic{
+    height: 3em;
+    width: 30em;
+}
+
+
+div{
+    text-align: center;    
+}
+
+#submit{
+    height: 5em;
+    width: 15em;
+    border-radius: 1em;
+    background-color: white;
+}
+#sunmit:hover{
+    background-color: #b81c24;
+}

@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 2em;
+}
+
+nav {
+    display: flex;
+    font-size: 1.5em;
+    justify-content: space-around;
+
+}
+
+main h1 {
+    font-size: 6em;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1350px) {
+    main h1 {
+        font-size: 5em;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    main h1 {
+        font-size: 3em;
+
+    section p {
+        font-size: 0.875em;
+    }
+    
+}

@@ -1,0 +1,45 @@
+
+/*  
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.stop{
+    
+    width: 200px;
+    height: 200px;
+    background-image: url('stop-on.svg');
+    background-size: cover;
+}
+
+.stop_walk{
+    width: 200px;
+    height: 200px;
+    background-image: url('walk-off.svg');
+    background-size: cover;
+}
+
+.on{
+    width: 200px;
+    height: 200px;
+    background-image: url('stop-off.svg');
+    background-size: cover;
+}
+
+.walk{
+    width: 200px;
+    height: 200px;
+    background-image: url('walk-on.svg');
+    background-size: cover;
+}
+*/
+
+.timer{
+   
+    width: 300px;
+    height: 100px;
+    font-size: 50px;
+    text-align: center;
+}
+

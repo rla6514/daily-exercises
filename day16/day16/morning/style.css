@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    margin: 0;
+}
+
+.menu{
+    display: flex;
+    background-color: blue;
+    color: white;
+    padding: 1em 3em;
+}
+
+#icon{
+    justify-content: flex-start;
+}
+
+.menu_list{
+    visibility: hidden;
+    font-weight: bold;
+
+}
+
+
+.article{
+    padding: 2em 5em;
+    padding-right: 20em;
+    font-weight: bold;
+}
+
+
+.menu_click{
+    visibility: visible;
+}
+
+
+
+
+
+

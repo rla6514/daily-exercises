@@ -1,0 +1,30 @@
+html{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+body{
+    margin-top: 2.5em;
+    border: 2em solid pink;
+    text-align: center;
+    background: -webkit-linear-gradient(top,  #58b4b7 16%,#840e6e 52%,#de47ac 86%); /* Chrome10-25,Safari5.1-6 */
+    background-size: cover;
+    font-family: 'Indie Flower', cursive;
+    
+}
+
+img{
+    width: 20%;
+    height: 20%;
+}
+
+h1{
+  font-size: 5em;  
+  font-weight: bold;
+}
+
+p{
+    font-size: 2em;
+}
+
